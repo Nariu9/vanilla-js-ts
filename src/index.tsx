@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {sum} from "./03/03";
+import {User} from "./06/06-callbacks";
 
 var a = sum;
 
@@ -11,7 +12,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-    <App />
+    <User />
 );
 
 // If you want to start measuring performance in your app, pass a function
